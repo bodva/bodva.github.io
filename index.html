@@ -9,7 +9,15 @@
         <h1>King Lear</h1>
         <h3>Tragedy</h3>
         <div>
-            {{ personas }}
+           <ul>
+               <li ng-repeat="person in personas">{{ person.name }}
+                    <ul ng-show="person.kids">
+                        <li ng-repeat="kid in person.kids">
+                            {{ kid.relationship}} - {{ kid.name }}
+                        </li>
+                    </ul>
+               </li>
+           </ul>
         </div>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
