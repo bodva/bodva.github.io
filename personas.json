@@ -1,0 +1,36 @@
+[
+{
+    "name": "Lear",
+    "status": "King of Britain",
+    "kids": [
+    {
+        "name": "Goneril",
+        "relationship": "daughter"
+    },
+    {
+        "name": "Regan",
+        "relationship": "daughter"
+    },
+    {
+        "name": "Cordelia",
+        "relationship": "daughter"
+    }]
+},
+{
+    "name": "King of France"
+},
+{
+    "name": "Duke of Burgundy"
+},
+{
+    "name": "Earl of Gloucester",
+    "kids": [
+    {
+        "name": "Edgar",
+        "relationship": "son"
+    },
+    {
+        "name": "Edmund",
+        "relationship": "bastard son"
+    }]
+}]
